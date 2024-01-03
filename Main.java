@@ -63,6 +63,7 @@ public class Main {
 		for(int i = 0; i<t.size();i++) {
 			temp += t.get(i)+',';
 		}
+		// removes last comma
 		temp = temp.substring(0,temp.length()-1);
 		return temp += ']';
 	}
