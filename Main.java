@@ -16,7 +16,7 @@ public class Main {
 	private static List<String> userMessages;
 	private static List<String> aiMessages;
 	public static String execCmd() throws IOException {
-        String command = "cd \"C:\\Users\\justi\\Desktop\\new js file\\Bard\" && Node index.js";
+        String command = "cd \"path to bard folder" && Node index.js";
 		ProcessBuilder builder = new ProcessBuilder(
         		
                 "cmd.exe", "/c", command);
@@ -35,7 +35,7 @@ public class Main {
 	}
 	
 	public static void change(String input) {
-	    String file = "C:\\Users\\justi\\Desktop\\new js file\\Bard\\index.js";
+	    String file = "file to index.js";
 	    String newLineContent = ""+input+" "+directions+"";
 	    
 	    int lineToBeEdited = 9;
