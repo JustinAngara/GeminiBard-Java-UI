@@ -3,7 +3,7 @@
 import './node_modules/cross-fetch/dist/node-polyfill.js';
 import Gemini from "gemini-ai";
 
-const gemini = new Gemini('AIzaSyAwu6kKeryvX9DrFlYA9499YhuIzD6QiIw');
+const gemini = new Gemini(``);
 
 let sentence =` 
 Prompt: Hello! null
